@@ -27,6 +27,6 @@ HEAD -- это голова.
 graph LR;
   A[untracked] -- git add --> B[staged];
   B    -- git commit     --> C[tracked/comitted];
-эти схемы та ещё шляпа, но возможно пригодяться
+  D[эти схемы та ещё шляпа, но возможно пригодяться];
 
 ```
