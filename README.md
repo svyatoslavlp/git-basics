@@ -25,10 +25,8 @@ HEAD -- это голова.
 
 %% описание схемы
 graph LR;
-  untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
+  untracked -- `git add` --> staged;
+  staged    -- `git commit -m "first commit"`     --> tracked/comitted;
 
-%% стрелка без текста для примера: 
-  A --> B;
 
 ```
