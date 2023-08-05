@@ -23,12 +23,10 @@ HEAD -- это голова.
 
 ```mermaid
 
-%% описание схемы
+%% описание схемы - эти схемы та ещё шляпа, но возможно пригодяться
 graph LR;
-  untracked -- "git add" --> staged;
-  staged    -- "(git commit -m "first commit")"     --> tracked/comitted;
-
-%% стрелка без текста для примера: 
-  A --> B;
+  A[untracked] -- git add --> B[staged];
+  B    -- git commit     --> C[tracked/comitted];
+эти схемы та ещё шляпа, но возможно пригодяться
 
 ```
